@@ -2,12 +2,22 @@
     background-image: url(https://raw.githubusercontent.com/KrishnaSolo/KrishnaSolo.github.io/master/background.jpg);
     background-size: cover;
     background-attachment: scroll;
+    margin-top: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    
 }
 
-h1 {
+.header {
     color: floralwhite;
+    border-style: groove;
+    border-color: floralwhite;
+    padding: 20px;
+    text-align:center;
 }
+
 
 p {
     color: whitesmoke;
+    
 }
