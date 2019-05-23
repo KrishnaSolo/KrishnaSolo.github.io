@@ -1,4 +1,13 @@
 ﻿body {
-    background-image: url(https://github.com/KrishnaSolo/KrishnaSolo.github.io/blob/master/background.jpg);
+    background-image: url(https://raw.githubusercontent.com/KrishnaSolo/KrishnaSolo.github.io/master/background.jpg);
     background-size: cover;
+    background-attachment: scroll;
+}
+
+h1 {
+    color: floralwhite;
+}
+
+p {
+    color: whitesmoke;
 }
