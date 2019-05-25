@@ -2,11 +2,31 @@
     background-image: url(https://raw.githubusercontent.com/KrishnaSolo/KrishnaSolo.github.io/master/background.jpg);
     background-size: cover;
     background-attachment: scroll;
+    opacity: 0.65;
 }
 
-h1 {
-    color: floralwhite;
+a:link, a:visited {
+    color: #fff;
+    background-color: #111;
+    padding-left: 75px;
+    padding-right: 60px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 215px;
+    margin-left: 392px;
+    margin-right: 425px;
+    margin-bottom: 200px;
+    font: 700 42px/1.8 "Lato", sans-serif;
+    letter-spacing: 12px;
 }
+
+    a:hover {
+        color: #111;
+        background-color: #fff;
+    }
 
 p {
     color: whitesmoke;
