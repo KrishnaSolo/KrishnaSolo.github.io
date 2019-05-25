@@ -1,0 +1,24 @@
+﻿body {
+    background-image: url(https://images.unsplash.com/photo-1558675080-ee9b075603cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 0.65;
+}
+
+.header {
+    color: #fff;
+    background-color: #111;
+    box-sizing: content-box;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    margin-top: 205px;
+    margin-left: 425px;
+    margin-right: 425px;
+    margin-bottom: 200px;
+    text-transform: uppercase;
+    font: 400 20px/1.8 "Lato", sans-serif;
+    letter-spacing: 12px;
+}
