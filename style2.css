@@ -1,47 +1,62 @@
-body {
-    background-image: url(https://images.unsplash.com/photo-1558675080-ee9b075603cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-    background-size: cover;
-    background-attachment: scroll;
-    opacity: 0.95;
-    height: 1090px;
-}
-html {
-    scroll-behavior: smooth
-}
-.header {
-    color: #fff;
-    background-color: #111;
-    box-sizing: content-box;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    text-align: center;
-    margin-top: 205px;
-    margin-left: 425px;
-    margin-right: 425px;
-    margin-bottom: 200px;
-    text-transform: uppercase;
-    font: 400 20px/1.8 "Lato", sans-serif;
-    letter-spacing: 12px;
-    opacity:0.68;
-}
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-.topnav {
-    overflow: hidden;
-    opacity: 1;
-    background-color: #333;
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
 }
 
-    /* Style the topnav links */
-    .topnav a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("https://images.unsplash.com/photo-1562516685-488706077e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("https://images.unsplash.com/photo-1558961163-9d5f22a929bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("https://images.unsplash.com/photo-1562562218-2b1c221242a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+    .caption span.border {
+        background-color: #111;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
     }
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
