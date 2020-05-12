@@ -14,15 +14,16 @@
             }
             
             .name{
-                color: white;
+                color:#f0f0f0;
                 font-size: 28px;
                 line-height: 120%;
                 font-weight: 600;
             }
             .tagline{
-                color: grey;
+                color: rgb(121, 119, 119);
                 font-size: 12px;
                 line-height: 150%;
+                font-weight: 100;
 
             }
 
@@ -48,21 +49,44 @@
             
             li a {
               display: block;
-              color: grey;
+              color: rgb(121, 119, 119);
               padding: 8px 16px;
               text-align: left;
               text-decoration: none;
               margin-left: -0.5cm;
+              font-weight: 600;
+              font-size: 12px;
+              letter-spacing: 0.7px;
+              transition: color 200ms ease;
             }
             
             li a.active {
               /*background-color: #4CAF50;*/
-              color: white;
+              color: #f0f0f0;
             }
             
             li a:hover:not(.active) {
               /*background-color: #555;*/
-              color: white;
+              color: #f0f0f0;
+            }
+
+            .hIntro{
+
+                margin-bottom: 15px;
+                font-size: 35px;
+                line-height: 40px;
+                font-weight: 600;
+                font-family: 'Open Sans', sans-serif;
+                color: #1d2630;
+            }
+            .intro{
+                margin-top: 21px;
+                margin-bottom: 20px;
+                line-height: 160%;
+                font-weight: 300;
+                font-family: 'Open Sans', sans-serif;
+                color: #1d2630;
+                font-size: 16px;
             }
             </style>
     </head>
@@ -79,10 +103,12 @@
         </ul>
         
         <div style="margin-left:25%; padding: 65px 90px;  height:100%;">
-          <h2>Fixed Full-height Side Nav</h2>
-          <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
-          <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
-          <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+          <h1 class="hIntro">About Me</h1>
+          <p class="intro">
+            Hi! I am a student engineer passionate about system design, ML and hardware design.
+            I am currently doing my major in Computer Engineering and in the process of getting a minor in Artificial Intelligence.
+            Some of my interests include: Football, Astronomy, Machine Learning, Hardware Accelerators, Quantum Computing, and Riddles.
+          </p>
         
         </div>
         
