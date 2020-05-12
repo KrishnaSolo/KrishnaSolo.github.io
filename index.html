@@ -1,14 +1,96 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <style>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+              margin: 0;
+              font-family: 'Open Sans', sans-serif;
+              font-size: 16px;
+              line-height: 135%;
+              background-color: white;
+            }
+            
+            .name{
+                padding-top: 5px;
+                text-align: center;
+                color: white;
+                font-size: 28px;
+                line-height: 120%;
+                margin-left: -1cm;
+                font-weight: 600;
+            }
+            .tagline{
+                padding-left: 10px;
+                text-align:center;
+                color: grey;
+                font-size: 12px;
+                line-height: 150%;
+                margin-left: -1cm;
+            }
 
-</style>
-</head>
-<body>
-    <a href="about1.html">WELCOME</a>
+            #first{
+                padding-top: 10px;
+            }
+            ul {
+              
+              list-style-type: none;
+              margin: 0;
+              left: 0px;
+              top: 0px;
+              bottom: 0px; 
+              width: 25%;
+              padding: 30px 40px;
+              border-color: black;
+              background-color: #1d2630;
+              position: fixed;
+              opacity: 1;
+              height: 100%;
+              overflow: auto;
+            }
+            
+            li a {
+              display: block;
+              color: grey;
+              padding: 8px 16px;
+              text-align: left;
+              text-decoration: none;
+              margin-left: -0.5cm;
+            }
+            
+            li a.active {
+              /*background-color: #4CAF50;*/
+              color: white;
+            }
+            
+            li a:hover:not(.active) {
+              /*background-color: #555;*/
+              color: white;
+            }
+            </style>
+    </head>
 
-</body>
+    <body>
+
+        <ul>
+          <h1 class="name">Krishna Solanki</h2>
+          <h5 class="tagline">Physics, Coding and Football. <br/> In That Order.</h5>
+          <li><a id="first" class="active" href="#About">ABOUT</a></li>
+          <li><a href="#Project">PROJECTS</a></li>
+          <li><a href="#Resume">RESUME</a></li>
+          <li><a href="#Contact">CONTACT</a></li>
+        </ul>
+        
+        <div style="margin-left:25%; padding: 65px 90px;  height:100%;">
+          <h2>Fixed Full-height Side Nav</h2>
+          <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+          <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+          <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+        
+        </div>
+        
+        </body>
 
 </html>
