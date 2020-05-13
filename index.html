@@ -20,10 +20,10 @@
                 font-weight: 600;
             }
             .tagline{
-                color: rgb(121, 119, 119);
+                color: rgb(150, 150, 150);
                 font-size: 12px;
                 line-height: 150%;
-                font-weight: 100;
+                font-weight: 50;
 
             }
 
@@ -37,7 +37,7 @@
               left: 0px;
               top: 0px;
               bottom: 0px; 
-              width: 20%;
+              width: 18.5%;
               padding: 30px 40px;
               border-color: black;
               background-color: #1d2630;
@@ -49,7 +49,7 @@
             
             li a {
               display: block;
-              color: rgb(121, 119, 119);
+              color: rgb(129, 127, 127);
               padding: 8px 16px;
               text-align: left;
               text-decoration: none;
@@ -78,16 +78,30 @@
                 font-weight: 600;
                 font-family: 'Open Sans', sans-serif;
                 color: #1d2630;
+                letter-spacing: 0.7px;
             }
             .intro{
                 margin-top: 21px;
                 margin-bottom: 20px;
                 line-height: 160%;
-                font-weight: 300;
                 font-family: 'Open Sans', sans-serif;
                 color: #1d2630;
                 font-size: 16px;
             }
+            .img{
+              display: block;
+              margin: 33px auto 0px;
+              padding-top: 0px;
+              padding-right: 0px;
+              padding-left: 0px;
+              border-radius: 10px;
+              opacity: 0.9;
+              width: 100%;
+              max-width: 500px;
+              height: auto;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
             </style>
     </head>
 
@@ -96,20 +110,29 @@
         <ul>
           <li><h1 class="name">Krishna Solanki</h2></li>
           <li><h5 class="tagline">Physics, Coding and Football. <br/> In That Order.</h5></li>
+          <li><hr style="text-align:left;color: #f0f0f0;"></li>
           <li><a id="first" class="active" href="#About">ABOUT</a></li>
           <li><a href="#Project">PROJECTS</a></li>
           <li><a href="#Resume">RESUME</a></li>
           <li><a href="#Contact">CONTACT</a></li>
+          <li><hr style="text-align:left;color: #f0f0f0;"></li>
         </ul>
         
-        <div style="margin-left:25%; padding: 65px 90px;  height:100%;">
-          <h1 class="hIntro">About Me</h1>
+        <div style="margin-left:23%; padding: 45px 75px;  height:100%;">
+          <h1 class="hIntro">About me</h1>
           <p class="intro">
-            Hi! I am a student engineer passionate about system design, ML and hardware design.
-            I am currently doing my major in Computer Engineering and in the process of getting a minor in Artificial Intelligence.
+            Hi! My name is Krishna Solanki and welcome to my site!
+            I am a student engineer passionate about using technology to help make the world
+            a better place, even if it is one person at a time.
+            I also enjoy football and am a proud supporter of FC Barcelona.
+          </p>
+          <p class="intro">
+            I am currently in my 3rd year at the University of Toronto majoring in Computer Engineering and minoring in Artificial Intelligence.
             Some of my interests include: Football, Astronomy, Machine Learning, Hardware Accelerators, Quantum Computing, and Riddles.
           </p>
-        
+          <img class="img"
+          src="Me.jpg" alt="Picture of Krishna Solanki
+          width="500" height="600">
         </div>
         
         </body>
